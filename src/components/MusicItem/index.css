@@ -1,0 +1,58 @@
+.track-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .left-container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+  
+  .albumImg {
+    height: 90px;
+    width: 140px;
+    margin-left: 20px;
+  }
+  .nameGenre-Container {
+    margin-left: 20px;
+  }
+  .track-name {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .track-genre {
+    color: #3b82f6;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .time {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 15px;
+  }
+  
+  .right-container {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .delete-btn {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+  }
+  
